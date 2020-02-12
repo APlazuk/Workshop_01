@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class GuessNumbers {
     public static void main(String[] args) {
         Random r = new Random();
-        int randomNumber = r.nextInt(100);
+        int randomNumber = r.nextInt(100)+1;
         guessNumber(randomNumber);
     }
         public static void guessNumber(int randomNumber){
